@@ -1,0 +1,131 @@
+
+/*=== Header h1, h2, hgroup styling ===*/
+h1 {
+    font-size: 3em;
+    margin: 0 auto;
+    padding: 5%;
+    text-align: center;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    color: #ECCE54;
+}
+h2 {
+    font-size: 5em;
+    margin: 0 auto;
+    padding: 5%;
+    text-align: center;
+    color: #fff;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+
+}
+/*=== DIV & Class styling ===*/
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 6%;
+}
+
+#presentation {
+    height: 800px;
+    background: url("../images/bw-recordplayer.jpg") 50% 50% no-repeat fixed;
+    padding: 5% 0;
+    opacity: .7;
+}
+
+#example2 {
+    height: 800px;
+    color: #fff;
+    text-align: center;
+}
+#example1 {
+    height: 800px;
+    color: #4d4d4d;
+    background-color: #ffffff;
+}
+#example1 h2 {
+    color: #ECCE54;
+}
+#example3 {
+    height: 1000px;
+    background-color: #ECCE54;
+    text-align: center;
+}
+
+#example1 h1, #example3 h1 {
+    color: #4d4d4d;
+}
+#example1 h3 {
+    float: left;
+    width: 40%;
+    font-size: 4em;
+    padding: 1% 0 1% 3%;
+    margin: 0 auto;
+    text-align: right;
+
+}
+#wait1 {
+    font-size: 4em;
+    color: #ECCE54;
+    text-transform: uppercase;
+    outline-color: #4d4d4d;
+
+}
+
+#wait2 {
+    font-weight: 400;
+    color: aquamarine;
+    text-transform: uppercase;
+    font-size: 4em;
+    outline-color: #4d4d4d;
+
+
+}
+#wait3 {
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 4em;
+    outline-color: #4d4d4d;
+
+}
+/*=== DIV & Class styling ===*/
+#navigation a {
+    color: #4d4d4d;
+    text-decoration: none;
+}
+#navigation {
+    padding: 0;
+    background-color: #4d4d4d;
+
+}
+#navigation ul {
+    list-style: none;
+    float: right;
+    width: 40%;
+    padding: 1% 0;
+
+}
+
+li {
+    padding: 0 5%;
+    display: inline;
+    margin: 0;
+}
+input#email-input {
+    width: 50%;
+    background-color: #ECCE54;
+    border: 1px solid #4d4d4d;
+    padding: 2%;
+    float: right;
+}
+footer {
+    margin: 0 auto;
+    padding: 1% 0;
+    text-align: center;
+    color: #ECCE54;
+}
+img {
+    width: 30%;
+    padding: 0 3%;
+}

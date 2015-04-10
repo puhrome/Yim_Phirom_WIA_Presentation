@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Data Scroll Reveal JS Presentation</title>
+    <!-- fonts --->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,700,900' rel='stylesheet' type='text/css'>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<!-- Start of Navigation, Navbar, and Nav-->
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+    <div class="container">
+        <ul>
+            <li><a href="#example1">Example One</a></li>
+            <li><a href="#example2">Example Two</a></li>
+            <li><a href="#example3">Example Three</a></li>
+        </ul>
+    </div>
+</nav>
+<!--End of Navigation-->
+<!-- Start of DIV Presentation-->
+<div class="container" id="presentation">
+    <h1 data-sr="enter left, ease-in 500px">Introducing</h1>
+    <h2 data-sr=" wait 1s, ease-in-out 100px">scrollReveal.js</h2>
+</div>
+<!--End of Div -->
+<!--Start of DIV for example1-->
+<!-- data-sr can go into and element to initiate scrollReveal.js-->
+<div class="container" id="example1">
+    <div data-sr="wait .5s">
+        <h1>Example One</h1>
+        <h2>Move</h2>
+        <div class="form-group" id="form-header" >
+            <h3 data-sr="move 500px over 3s">Subscribe</h3>
+        </div>
+        <div class="form-group" data-sr="move 16px scale up 20%, over 2s">
+            <input type="text" placeholder="email" id="email-input">
+        </div>
+    </div>
+</div>
+<!--End of example1-->
+<!--Start of DIV for example2-->
+<div class="container" id="example2" data-sr="wait 1.5s">
+    <h1>Example Two</h1>
+    <h2>Wait</h2>
+    <!--implementing keywords to activate scrollReveal.js-->
+    <div id="wait1" data-sr="wait 5s, ease-in-out 100px">
+        <p> Wait 5 seconds</p>
+    </div>
+    <div id="wait2" data-sr="wait 3s, move 16px scale up 20%, over 2s">
+        <p> Wait 3 seconds</p>
+    </div>
+    <div id="wait3" data-sr="wait 1s, enter bottom, roll 45deg, over 2s">
+        <p> Wait 1 second</p>
+    </div>
+</div>
+<!--End of DIV-->
+<!--Start of DIV of example3-->
+<div class="container" id="example3">
+    <div data-sr="wait 1.5s">
+    <h1>Example Three</h1>
+    <h2>Over</h2>
+    <img src="images/thumbnail1.jpg" alt="vintage typewriter" class="img-thumbnail" data-sr="move 30px over 8s">
+    <img src="images/thumbnail2.jpg" alt="vintage croquet set" class="img-thumbnail" data-sr="enter bottom, move 60px over 2s">
+    <img src="images/thumbnail3.jpg" alt="polaroid camera" class="img-thumbnail" data-sr="wait 1s move 50px over 6s">
+    </div>
+</div>
+<!--End of DIV-->
+<!--Start of Footer-->
+<footer>
+    <span id="copy">&copy P. Yim</span>
+</footer>
+<!--End of Footer-->
+<!--Instantiating script after all your content-->
+<script src='js/scrollReveal.min.js'></script>
+<!--code that appears when page loads-->
+<script>
+
+    window.sr = new scrollReveal();
+
+</script>
+
+</body>
+<!--End of Body Content-->
+</html>
